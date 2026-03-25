@@ -1,0 +1,40 @@
+[
+    {
+        "type": "param",
+        "label": "(16*sin(t),13*cos(t))",
+        "param": "t",
+        "range": [-14, 90],
+        "dots": 2000,
+        "points_t": [],
+        "points_x": [],
+        "points_y": []
+    },
+    {
+        "type": "explicit",
+        "color": "black",
+        "linestyle": "-",
+        "linewidth": 2,
+        "label": "x**2-a*x-b",
+        "param": "x",
+        "proj": "y",
+        "range": [-14, 90],
+        "dots": 2000,
+        "args": {
+            "a": 27,
+            "b": 16
+        },
+        "points_x": [],
+        "points_y": []
+    },
+    {
+        "type": "explicit",
+        "polar": 1,
+        "label": "p",
+        "param": "p",
+        "proj": "r",
+        "range": [0, 34.14],
+        "dots": 2000,
+        "points_p": [],
+        "points_r": []
+    }
+]

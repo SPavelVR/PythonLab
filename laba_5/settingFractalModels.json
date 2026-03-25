@@ -1,0 +1,152 @@
+[
+    {
+        "label": "Настройка Кривой Коха",
+        "relative": 1,
+        "args": [
+            {
+                "type": "scale",
+                "name": "Порядок кривой",
+                "basearg": 0,
+                "minarg": 0,
+                "maxarg": 20,
+                "length": 500
+            },
+            {
+                "type": "cord",
+                "name": "X1",
+                "basearg": 0,
+                "exis": "x"
+            },
+            {
+                "type": "cord",
+                "name": "Y1",
+                "basearg": 1,
+                "exis": "y"
+            },
+            {
+                "type": "cord",
+                "name": "X2",
+                "basearg": 1,
+                "exis": "x"
+            },
+            {
+                "type": "cord",
+                "name": "Y2",
+                "basearg": 0,
+                "exis": "y"
+            }
+        ]
+    },
+    {
+        "label": "Настройка Салфетки Серпинского",
+        "relative": 1,
+        "args": [
+            {
+                "type": "scale",
+                "name": "Порядок кривой",
+                "basearg": 0,
+                "minarg": 0,
+                "maxarg": 20,
+                "length": 500
+            },
+            {
+                "type": "cord",
+                "name": "Центор X",
+                "basearg": 0.5,
+                "exis": "x"
+            },
+            {
+                "type": "cord",
+                "name": "Центор Y",
+                "basearg": 0.5,
+                "exis": "y"
+            },
+            {
+                "type": "posint",
+                "name": "Радиус",
+                "basearg": 169
+            }
+        ]
+    },
+    {
+        "label": "настройка Кривой Дракона",
+        "enableCheckbutton": 0,
+        "args": [
+            {
+                "type": "scale",
+                "name": "Порядок кривой",
+                "basearg": 0,
+                "minarg": 0,
+                "maxarg": 20,
+                "length": 500
+            }
+        ]
+    },
+    {
+        "label": "Настройка Звезды Коха",
+        "relative": 1,
+        "args": [
+            {
+                "type": "scale",
+                "name": "Порядок кривой",
+                "basearg": 0,
+                "minarg": 0,
+                "maxarg": 20,
+                "length": 500
+            },
+            {
+                "type": "cord",
+                "name": "Центор X",
+                "basearg": 0.5,
+                "exis": "x"
+            },
+            {
+                "type": "cord",
+                "name": "Центор Y",
+                "basearg": 0.5,
+                "exis": "y"
+            },
+            {
+                "type": "posint",
+                "name": "Радиус",
+                "basearg": 200
+            }
+        ]
+    },
+    {
+        "label": "Настройка Деревы Пифагора",
+        "relative": 1,
+        "args": [
+            {
+                "type": "scale",
+                "name": "Порядок кривой",
+                "basearg": 0,
+                "minarg": 0,
+                "maxarg": 20,
+                "length": 500
+            },
+            {
+                "type": "cord",
+                "name": "Центор X",
+                "basearg": 0.5,
+                "exis": "x"
+            },
+            {
+                "type": "cord",
+                "name": "Центор Y",
+                "basearg": 0.80,
+                "exis": "y"
+            },
+            {
+                "type": "posint",
+                "name": "Катет",
+                "basearg": 60
+            },
+            {
+                "type": "int",
+                "name": "Угол",
+                "basearg": 45
+            }
+        ]
+    }
+]
