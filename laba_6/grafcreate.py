@@ -46,6 +46,9 @@ def create_points_explicit(func: dict):
 
     proj = f(param)
 
+    if type(proj) != np.ndarray:
+        proj = np.array([proj] * len(param))
+
     mask = np.isfinite(proj) & (~np.isnan(proj))
 
     param = param[mask]
